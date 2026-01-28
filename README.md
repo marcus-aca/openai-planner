@@ -23,13 +23,13 @@ python3 plan_builder.py sample_design.md
 ```
 
 ## Output
-- `docs/generated-plan/overview_plan.md`
-- `docs/generated-plan/sections/*.md`
+- `docs/overview_plan.md`
+- `docs/sections/*.md`
 
 ## Options
 ```bash
 python3 plan_builder.py sample_design.md \
-  --output-dir docs/generated-plan \
+  --output-dir docs \
   --overview-model gpt-4o-mini \
   --detail-model gpt-4o-2024-08-06
 ```
