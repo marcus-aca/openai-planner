@@ -41,3 +41,4 @@ python3 plan_builder.py sample_design.md \
 1. Put your project design into a single markdown file.
 2. Run the generator to create an overview + detailed section plans.
 3. Use the generated files as context for interactive development.
+
